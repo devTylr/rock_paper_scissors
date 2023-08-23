@@ -36,8 +36,10 @@ function playRound(playerSelection, computerSelection) {
 
     if (pScore === 5 && cScore < 5) {
         results.textContent = 'Game over. You win the game!';
+        
     } else if (cScore === 5 && pScore < 5) {
         results.textContent = 'Game over. You lost the game!';
+        
     }
 }
 
